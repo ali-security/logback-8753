@@ -27,7 +27,7 @@ jobs:
     strategy:
       matrix:
         jdk: [11, 17]
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-22.04, windows-2022, macos-13]
       fail-fast: true
       max-parallel: 4
     steps:
